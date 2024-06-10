@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wallpapercolor {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1E1E1E;
+}
+
+#homebackground {
+    width: 100vw;
+    height: 100vh;
+    background: url(./assets/homebackground.png) no-repeat;
+    background-size: cover;
+}
+
+.aboutme1 {
+    display: flex;
+    top: 363.5px;
+    left: 170px;
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+.greetins-span {
+    color: #ffffff;
+    font-family: "Lexend", sans-serif;
+    font-style: normal;
+    font-size: 120px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.greetins-span2 {
+    color: #ffffff;
+    font-family: "Lexend", sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
