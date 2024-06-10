@@ -7,6 +7,12 @@
     font-family: 'Lexend', sans-serif;
 }
 
+
+a {
+    text-decoration: none;
+}
+
+
 .academic-projects {
     background: #1e1e1e;
     height: 1940px;
@@ -181,6 +187,10 @@
     position: relative;
 }
 
+.text-course-title:hover {
+    color: #a8a8a8;
+}
+
 .text-course-description {
     color: #ffffff;
     text-align: left;
@@ -206,6 +216,7 @@
 }
 
 .nav-item {
+    background: #1E1E1E;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -215,6 +226,10 @@
     flex-shrink: 0;
     position: relative;
     overflow: hidden;
+}
+
+.nav-item:hover {
+    background: rgba(255, 255, 255, 0.20);
 }
 
 .text {
@@ -227,6 +242,7 @@
 }
 
 .nav-item2 {
+    background: #1E1E1E;
     background: rgba(255, 255, 255, 0.60);
     padding: 15px;
     display: flex;

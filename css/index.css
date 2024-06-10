@@ -7,6 +7,10 @@
     font-family: 'Lexend', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .about-me {
     height: 970px;
     position: relative;
@@ -168,8 +172,15 @@
     overflow: visible;
 }
 
+.container-connections .github:hover .github-path {
+    fill: #0066FF; /* Cor de hover para GitHub */
+}
+
+.container-connections .linkedin:hover .linkedin-path {
+    fill: #0066FF; /* Cor de hover para LinkedIn */
+}
+
 .container-nav {
-    background: linear-gradient(to left, #1e1e1e, #1e1e1e);
     border-radius: 12px;
     display: flex;
     flex-direction: row;
@@ -183,6 +194,7 @@
 }
 
 .nav-item {
+    background: #1E1E1E;
     background: rgba(255, 255, 255, 0.60);
     padding: 15px;
     display: flex;
@@ -205,6 +217,7 @@
 }
 
 .nav-item2 {
+    background: #1E1E1E;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -214,6 +227,10 @@
     flex-shrink: 0;
     position: relative;
     overflow: hidden;
+}
+
+.nav-item2:hover {
+    background: rgba(255, 255, 255, 0.20);
 }
 
 .text2 {
