@@ -85,7 +85,7 @@ a {
     position: relative;
 }
 
-.matter-card2 {
+.matter-card2, .matter-card3, .matter-card4, .matter-card5, .matter-card6 {
     background: rgba(255, 255, 255, 0.40);
     padding: 10px;
     display: flex;
@@ -100,7 +100,7 @@ a {
     overflow: hidden;
 }
 
-.matter-card3 {
+.matter-card7 {
     background: rgba(255, 255, 255, 0.40);
     border-radius: 0px 50px 50px 0px;
     padding: 10px;
