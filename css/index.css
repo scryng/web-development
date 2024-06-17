@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.about-me {
+    height: 970px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-wallpaper {
+    background: linear-gradient(to left, rgba(0, 102, 255, 0.10), rgba(0, 102, 255, 0.10)), linear-gradient(to left, #1e1e1e, #1e1e1e);
+    width: 1920px;
+    height: 970px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.img-bg {
+    opacity: 0.4;
+    width: 1920px;
+    height: 1280px;
+    position: absolute;
+    left: 0px;
+    top: -100px;
+    object-fit: cover;
+}
+
+.container-underlined {
+    background: rgba(0, 102, 255, 0.60);
+    width: 679px;
+    height: 46px;
+    position: absolute;
+    left: 181px;
+    top: 469px;
+    overflow: hidden;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 170px;
+    top: 145px;
+}
+
+.container-greetings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.container-head {
+    flex-shrink: 0;
+    width: 698px;
+    height: 249px;
+    position: relative;
+    overflow: hidden;
+}
+
+.who-am-i {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 7px;
+    top: 99px;
+}
+
+.text-its {
+    color: #ffffff;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+}
+
+.text-name {
+    color: #ffffff;
+    text-align: left;
+    font-size: 120px;
+    font-weight: 700;
+    position: relative;
+}
+
+.text-title {
+    color: #ffffff;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.text-title-span {
+    color: #ffffff;
+    font-size: 120px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.text-title-span2 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container-description {
+    padding: 0px 11px 0px 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.description-text {
+    color: #ffffff;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img-me {
+    border-radius: 170px;
+    flex-shrink: 0;
+    width: 680px;
+    height: 680px;
+    position: relative;
+    object-fit: cover;
+}
+
+.container-connections {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    position: absolute;
+    left: 925px;
+    top: 880px;
+    overflow: visible;
+}
+
+.container-connections .github:hover .github-path {
+    fill: #0066FF; /* Cor de hover para GitHub */
+}
+
+.container-connections .linkedin:hover .linkedin-path {
+    fill: #0066FF; /* Cor de hover para LinkedIn */
+}
+
+.container-nav {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 735.5px;
+    top: 60px;
+    overflow: hidden;
+}
+
+.nav-item {
+    background: #1E1E1E;
+    background: rgba(255, 255, 255, 0.60);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.text {
+    color: #000000;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.nav-item2 {
+    background: #1E1E1E;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-item2:hover {
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.text2 {
+    color: #9c9c9c;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
