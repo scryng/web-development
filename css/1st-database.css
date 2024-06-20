@@ -628,3 +628,7 @@ a {
     left: 801.5px;
     top: 190px;
 }
+
+.text-reference:hover, .text-topic-8:hover, .text-topic-5:hover, .text-topic-3:hover {
+    color: #a8a8a8;
+}
